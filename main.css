@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(62, 66, 71);
+    color: #f0f6fc;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.lodding {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.end {
+    text-align: center;
+}
+
+.rpmtw {
+    padding: 10px;
+    width: 50%;
+    background-color: #212529;
+}
+
+.user {
+    width: 9cm;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(49, 52, 66);
+}
+
+#react-root {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.txt-rank {
+    font-size: 1.5em;
+    color: rgb(21, 140, 250);
+}
+
+.user-name {
+    color: rgb(108, 245, 154);
+}
