@@ -24,8 +24,10 @@ img {
     left: 50%;
 }
 
-.end {
-    text-align: center;
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(23, 24, 27);
 }
 
 .rpmtw {
