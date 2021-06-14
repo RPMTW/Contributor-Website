@@ -5,12 +5,14 @@ $(function () {
         for (data_ in datas.data) {
             data = datas.data[data_]
             var html = `<div class="user">
-                <a href="https://crowdin.com/profile/${data.user.username}">
                 <img class="user-icon" src="${data.user.avatarUrl}">
-                <a>
                 <div class="card-body">
-                    <h4 class="user-name"><span class="txt-rank">${parseInt(data_) + 1}.</span> ${data.user.fullName}</h4>
-                    <hr>
+                    <div class="hover">
+                        <a href="https://crowdin.com/profile/${data.user.username}"><h4 class="user-name">
+                        <span class="txt-rank">${parseInt(data_) + 1}. 
+                        </span> ${data.user.fullName}</h4></a>
+                    </div>
+
                     <p class="card-text">翻譯字數: ${data.translated}</p>
                     <p class="card-text">核准翻譯次數: ${data.approved}</p>
                     <p class="card-text">投票次數: ${data.voted}</p>

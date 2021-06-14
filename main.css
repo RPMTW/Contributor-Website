@@ -3,25 +3,29 @@ body {
     color: #f0f6fc;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.25rem;
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(23, 24, 27);
 }
 
 img {
     vertical-align: bottom;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.hover:hover :not(span) {
+    color: rgb(100, 194, 132);
+}
+
 .user-icon {
     border-radius: 100%;
     width: 25%;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(23, 24, 27);
 }
 
 .main {
