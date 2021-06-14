@@ -13,21 +13,27 @@ img {
     vertical-align: bottom;
 }
 
+.user-icon {
+    border-radius: 100%;
+    width: 25%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(23, 24, 27);
+}
+
 .main {
     display: flex;
     justify-content: center;
 }
 
 .lodding {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
-#footer {
     display: flex;
+    height: 300px;
+    align-items: center;
     justify-content: center;
-    background-color: rgb(23, 24, 27);
 }
 
 .rpmtw {
