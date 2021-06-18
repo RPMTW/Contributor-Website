@@ -1,6 +1,6 @@
 $(function () {
     $(".lodding").show();
-    $.getJSON("https://raw.githubusercontent.com/RPMTW/RPMTW-website-data/main/opt.json", function (datas) {
+    $.getJSON("https://raw.githubusercontent.com/RPMTW/RPMTW-website-data/main/data/opt.json", function (datas) {
         $(".lodding").hide();
         for (data_ in datas.data) {
             data = datas.data[data_]
