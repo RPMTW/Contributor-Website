@@ -3,7 +3,7 @@ $(function () {
     $.getJSON("https://raw.githubusercontent.com/RPMTW/RPMTW-website-data/main/data/opt.json", function (datas) {
         $(".lodding").hide();
         for (data_ in datas.data) {
-            if (data_ >= 10) return; 
+            if (data_ >= 12) return; 
             data = datas.data[data_]
             var html = `<div class="user">
                 <div class="card-body">
