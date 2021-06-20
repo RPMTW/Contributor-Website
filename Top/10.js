@@ -12,8 +12,6 @@ $(function () {
                         <img class="user-icon" src="${data.user.avatarUrl}">
                         </span> ${data.user.fullName}</h4></a>
                     </div>
-
-                    <p class="card-text">翻譯字數: ${data.translated}</p>
                 </div>
             </div > `;
             $("#react-root").append(html);
