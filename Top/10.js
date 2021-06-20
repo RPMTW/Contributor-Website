@@ -15,7 +15,6 @@ $(function () {
                     </div>
 
                     <p class="card-text">翻譯字數: ${data.translated}</p>
-                    <p class="card-text">投票次數: ${data.voted}</p>
                     <p class="card-text">翻譯獲得稱讚數: ${data.winning}</p>
                 </div>
             </div > `;
