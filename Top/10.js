@@ -6,16 +6,14 @@ $(function () {
             if (data_ >= 10) return; 
             data = datas.data[data_]
             var html = `<div class="user">
-                <img class="user-icon" src="${data.user.avatarUrl}">
                 <div class="card-body">
                     <div class="hover">
                         <a href="https://crowdin.com/profile/${data.user.username}"><h4 class="user-name">
-                        <span class="txt-rank">${parseInt(data_) + 1}. 
+                        <img class="user-icon" src="${data.user.avatarUrl}">
                         </span> ${data.user.fullName}</h4></a>
                     </div>
 
                     <p class="card-text">翻譯字數: ${data.translated}</p>
-                    <p class="card-text">翻譯獲得稱讚數: ${data.winning}</p>
                 </div>
             </div > `;
             $("#react-root").append(html);
