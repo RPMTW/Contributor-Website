@@ -41,9 +41,9 @@ a {
 }
 
 .user {
-    width: 9cm;
+    width: 8cm;
     margin: 5px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
     background-color: rgb(49, 52, 66);
 }
