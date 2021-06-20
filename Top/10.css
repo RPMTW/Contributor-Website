@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(62, 66, 71);
+    color: #f0f6fc;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(23, 24, 27);
+}
+
+img {
+    vertical-align: bottom;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.hover:hover :not(span) {
+    color: rgb(100, 194, 132);
+}
+
+.user-icon {
+    border-radius: 100%;
+    width: 15%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.lodding {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.user {
+    width: 9cm;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(49, 52, 66);
+}
+
+#react-root {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.txt-rank {
+    font-size: 1.2em;
+    color: rgb(21, 140, 250);
+}
+
+.user-name {
+    color: rgb(108, 245, 154);
+}
